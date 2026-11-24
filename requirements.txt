@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scikit-learn
+# only needed for tests/test_vs_torch.py (CPU build is enough):
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+pytest

@@ -1,0 +1,44 @@
+{
+  "sgd": {
+    "best_lr": 0.0017782794100389228,
+    "final_loss": 0.013758826663470867,
+    "distance_to_minimum": 0.25028129519701253,
+    "steps_to_loss_below_1e-3": null
+  },
+  "momentum": {
+    "best_lr": 0.0031622776601683794,
+    "final_loss": 3.3825985837327664e-27,
+    "distance_to_minimum": 1.301345255585485e-13,
+    "steps_to_loss_below_1e-3": 164
+  },
+  "nesterov": {
+    "best_lr": 0.001,
+    "final_loss": 8.515745618552927e-09,
+    "distance_to_minimum": 0.0002065036058998905,
+    "steps_to_loss_below_1e-3": 604
+  },
+  "adagrad": {
+    "best_lr": 1.0,
+    "final_loss": 0.005863265484496297,
+    "distance_to_minimum": 0.16614008071403633,
+    "steps_to_loss_below_1e-3": null
+  },
+  "rmsprop": {
+    "best_lr": 0.0031622776601683794,
+    "final_loss": 0.00805613815621373,
+    "distance_to_minimum": 0.16990704997383674,
+    "steps_to_loss_below_1e-3": null
+  },
+  "adam": {
+    "best_lr": 0.1,
+    "final_loss": 6.65759244620921e-17,
+    "distance_to_minimum": 1.8259094023350334e-08,
+    "steps_to_loss_below_1e-3": 715
+  },
+  "adamw": {
+    "best_lr": 0.1,
+    "final_loss": 0.0017478249055942977,
+    "distance_to_minimum": 0.09198749139895453,
+    "steps_to_loss_below_1e-3": null
+  }
+}

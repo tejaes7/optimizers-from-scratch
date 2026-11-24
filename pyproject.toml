@@ -1,0 +1,13 @@
+[project]
+name = "optimizers-from-scratch"
+version = "1.0.0"
+description = "SGD, momentum, Nesterov, AdaGrad, RMSProp, Adam and AdamW written from scratch in NumPy and verified against PyTorch"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib", "scikit-learn"]
+
+[project.optional-dependencies]
+test = ["pytest", "torch"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
